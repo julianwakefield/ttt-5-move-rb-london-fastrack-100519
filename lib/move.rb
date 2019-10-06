@@ -8,4 +8,5 @@ end
 
 # code your input_to_index and move method here!
 board = [" ", " ", " "]
-def input_to_index(board, 0, X)
+def input_to_index(board, index, X)
+  board[index] = []
